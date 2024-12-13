@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+<h1>Travel reservation Form</h1>
+<h2>
+    <ul>
+        <li>Denotes mandotory</li>
+    </ul>
+</h2>
+    <form>
+        <lable for="Full name"><b>Full name:</b></lable><br>
+        <input type="name" id="name" name="name" required><br>
+        <lable for="email"><b>Email:</b></lable><br>
+        <input type="email" id="email" email="email" required><br>
+        <lable for="phone number"><b>Ph Number:</b></lable><br>
+        <input type="phone number" id="phone number" name="phone number" required><br>
+        <label><b>Gender:</b></label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+        <label><b>What would you want to avail?</b></label><br>
+        <input type="radio" id="Boarding" name="Boarding" value="Boarding">
+        <label for="Boarding">Boarding</label><br>
+        <input type="radio" id="Fooding" name="Fooding" value="Fooding">
+        <label for="Fooding">Fooding</label><br>
+        <input type="radio" id="sight seeing" name="sight seeing" value="sight seeing">
+        <label for="sight seeing">Sight seeing</label><br>
+        <label for="date"><b>Arrival Date:</b></label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="discount-code"><b>Discount coupon code:</b></label><br>
+        <input type="discount-code" id="discount-code" name="discount-code" placeholder="Enter code"><br>
+        <label><b>Terms and conditions:</b></label><br>
+        <input type="radio" id="agree" name="agree" value="agree">
+        <label for="agree">I Agree</label>
+        <input type="radio" id="disagree" name="disagree" value="disagree">
+        <label for="disagree">I Disagree</label><br><br>
+        <input type="submit" value="Complete reservation">
+    </form>
+    <a href="table.html">Next page</a>
+</body>
+</html>
